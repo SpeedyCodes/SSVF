@@ -1,4 +1,9 @@
-setTimeout(function () { removeThingies() }, 500);
+document.getElementById("navNextOuter").addEventListener("click", loadPageActions, false);
+document.getElementById("navPrevOuter").addEventListener("click", loadPageActions, false);
+loadPageActions();
+function loadPageActions() {
+    setTimeout(function () { removeThingies() }, 500);
+}
 function removeThingies(params) {
     chrome.storage.sync.get('color', function (data) {
         var nodes = document.getElementsByClassName(data.color);

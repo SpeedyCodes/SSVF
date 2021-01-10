@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    button {
+      height: 30px;
+      outline: none;
+    }
+
+    .color_almost_white {
+      border: 1px solid #9c9b9b;
+      background-color: #FEFEFE;
+      color: #1a1a1a
+    }
+
+    .color_watermeloen {
+      border: 1px solid #c56868;
+      background-color: #efabab;
+      color: #801111
+    }
+
+    .color_mandarijn {
+      border: 1px solid #de8866;
+      background-color: #fcb78d;
+      color: #a53104
+    }
+
+    .color_vanille {
+      border: 1px solid #d9c678;
+      background-color: #fee996;
+      color: #806601
+    }
+
+    .color_munt {
+      border: 1px solid #82cf73;
+      background-color: #abef89;
+      color: #1a8508
+    }
+
+    .color_zeilen {
+      border: 1px solid #90b0f2;
+      background-color: #9dd2f8;
+      color: #1d479b
+    }
+
+    .color_babyroos {
+      border: 1px solid #e78dc3;
+      background-color: #fda3d8;
+      color: #a30060
+    }
+
+    .color_lavendel {
+      border: 1px solid #c4a2e4;
+      background-color: #d7baf3;
+      color: #4f227a
+    }
+
+    .color_zilver {
+      border: 1px solid #9c9b9b;
+      background-color: #d0d0d0;
+      color: #1a1a1a
+    }
+
+    .color_sunset {
+      border: 1px solid #b00;
+      background-color: #ff4a46;
+      color: #fff
+    }
+
+    .color_vermiljoen {
+      border: 1px solid #ac1515;
+      background-color: #ff0000;
+      color: #fff
+    }
+
+    .color_appelsien {
+      border: 1px solid #c8420d;
+      background-color: #ff520e;
+      color: #fff
+    }
+
+    .color_banaan {
+      border: 1px solid #b49000;
+      background-color: #ffcc00;
+      color: #584601
+    }
+
+    .color_kiwi {
+      border: 1px solid #2c9517;
+      background-color: #57d31a;
+      color: #0e5c01
+    }
+
+    .color_hemel {
+      border: 1px solid #2552ad;
+      background-color: #1a96f1;
+      color: #fff
+    }
+
+    .color_magenta {
+      border: 1px solid #ae0168;
+      background-color: #ff0097;
+      color: #fff
+    }
+
+    .color_lila {
+      border: 1px solid #6b4093;
+      background-color: #9559cd;
+      color: #fff
+    }
+
+    .color_staal {
+      border: 1px solid #464646;
+      background-color: #828282;
+      color: #fff
+    }
+
+    .color_robijn {
+      border: 1px solid #760f0f;
+      background-color: #b31616;
+      color: #fff
+    }
+
+    .color_koper {
+      border: 1px solid #94310a;
+      background-color: #d33d02;
+      color: #fff
+    }
+
+    .color_oker {
+      border: 1px solid #8a6f01;
+      background-color: #c09a03;
+      color: #fff
+    }
+
+    .color_augurk {
+      border: 1px solid #2f7411;
+      background-color: #3d990f;
+      color: #fff
+    }
+
+    .color_ultramarijn {
+      border: 1px solid #2552ad;
+      background-color: #275fd2;
+      color: #fff
+    }
+
+    .color_rode_bosbes {
+      border: 1px solid #80014c;
+      background-color: #ce017a;
+      color: #fff
+    }
+
+    .color_violet {
+      border: 1px solid #4d286f;
+      background-color: #582884;
+      color: #fff
+    }
+
+    .color_lood {
+      border: 1px solid #2c2c2c;
+      background-color: #3c3c3c;
+      color: #fff
+    }
+
+    .color_bordeaux {
+      border: 1px solid #370606;
+      background-color: #6a1414;
+      color: #fff
+    }
+
+    .color_aarde {
+      border: 1px solid #3c1405;
+      background-color: #852a06;
+      color: #fff
+    }
+
+    .color_donker_goud {
+      border: 1px solid #423502;
+      background-color: #806601;
+      color: #fff
+    }
+
+    .color_ruccola {
+      border: 1px solid #123c04;
+      background-color: #115805;
+      color: #fff
+    }
+
+    .color_koningsblauw {
+      border: 1px solid #102652;
+      background-color: #123783;
+      color: #fff
+    }
+
+    .color_fluweel {
+      border: 1px solid #420328;
+      background-color: #7e004a;
+      color: #fff
+    }
+
+    .color_purper {
+      border: 1px solid #260d3e;
+      background-color: #3c1b5c;
+      color: #fff
+    }
+
+    .color_grafiet {
+      border: 1px solid #060606;
+      background-color: #1a1a1a;
+      color: #fff
+    }
+
+    .lessonFormColorExampleContainer {
+      margin: 5px
+    }
+
+    .lessonFormColorExampleContainer .lessonFormColorExample {
+      height: 20px;
+      width: 20px;
+      margin-right: 5px;
+      margin-bottom: 5px;
+      float: left;
+      cursor: pointer
+    }
+  </style>
+</head>
+
+<body>
+  <input type="text" title="Let niet op mij, ik ben een hulpelement." disabled>
+  <p width="100px">Selecteer hier de kleur van de vakken die je onzichtbaar wilt maken.</p>
+  <div class="lessonFormColorExampleContainer">
+    <div class="cf">
+      <div class="lessonFormColorExample color_watermeloen" color="watermeloen"></div>
+      <div class="lessonFormColorExample color_mandarijn" color="mandarijn"></div>
+      <div class="lessonFormColorExample color_vanille" color="vanille"></div>
+      <div class="lessonFormColorExample color_munt" color="munt"></div>
+      <div class="lessonFormColorExample color_zeilen" color="zeilen"></div>
+      <div class="lessonFormColorExample color_babyroos" color="babyroos"></div>
+      <div class="lessonFormColorExample color_lavendel" color="lavendel"></div>
+      <div class="lessonFormColorExample color_zilver" color="zilver"></div>
+    </div>
+    <div class="cf">
+      <div class="lessonFormColorExample color_vermiljoen" color="vermiljoen"></div>
+      <div class="lessonFormColorExample color_appelsien" color="appelsien"></div>
+      <div class="lessonFormColorExample color_banaan" color="banaan"></div>
+      <div class="lessonFormColorExample color_kiwi" color="kiwi"></div>
+      <div class="lessonFormColorExample color_hemel" color="hemel"></div>
+      <div class="lessonFormColorExample color_magenta" color="magenta"></div>
+      <div class="lessonFormColorExample color_lila" color="lila"></div>
+      <div class="lessonFormColorExample color_staal" color="staal"></div>
+    </div>
+    <div class="cf">
+      <div class="lessonFormColorExample color_robijn" color="robijn"></div>
+      <div class="lessonFormColorExample color_koper" color="koper"></div>
+      <div class="lessonFormColorExample color_oker" color="oker"></div>
+      <div class="lessonFormColorExample color_augurk" color="augurk"></div>
+      <div class="lessonFormColorExample color_ultramarijn" color="ultramarijn"></div>
+      <div class="lessonFormColorExample color_rode_bosbes" color="rode_bosbes"></div>
+      <div class="lessonFormColorExample color_violet" color="violet"></div>
+      <div class="lessonFormColorExample color_lood" color="lood"></div>
+    </div>
+    <div class="cf">
+      <div class="lessonFormColorExample color_bordeaux" color="bordeaux"></div>
+      <div class="lessonFormColorExample color_aarde" color="aarde"></div>
+      <div class="lessonFormColorExample color_donker_goud" color="donker_goud"></div>
+      <div class="lessonFormColorExample color_ruccola" color="ruccola"></div>
+      <div class="lessonFormColorExample color_koningsblauw" color="koningsblauw"></div>
+      <div class="lessonFormColorExample color_fluweel" color="fluweel"></div>
+      <div class="lessonFormColorExample color_purper" color="purper"></div>
+      <div class="lessonFormColorExample color_grafiet selected" color="grafiet"></div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+
+</html>

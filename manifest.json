@@ -1,0 +1,30 @@
+{
+  "name": "Smartschool Vakken Weghalen",
+  "version": "1.0",
+  "description": "Maakt gekozen vakken op Smartschool onzichtbaar.",
+  "permissions": [
+    "activeTab",
+    "declarativeContent",
+    "storage"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://stedelijklyceumpestalozzi.smartschool.be/index.php?module=Agenda*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "page_action": {
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}

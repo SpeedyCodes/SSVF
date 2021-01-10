@@ -1,7 +1,7 @@
 {
-  "name": "Smartschool Vakken Weghalen",
-  "version": "1.0",
-  "description": "Maakt gekozen vakken op Smartschool onzichtbaar.",
+  "name": "SSVF",
+  "version": "1.1",
+  "description": "SmartSchool Vakken Filter: maakt gekozen vakken op Smartschool onzichtbaar.",
   "permissions": [
     "activeTab",
     "declarativeContent",
